@@ -1,11 +1,14 @@
 {
-  "name": "get-some-info-v-1",
+  "name": "get-some-info",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "node index"
+    "start": "node index.ts"
   },
   "author": "",
-  "license": "ISC"
-} 
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.7.1"
+  }
+}
